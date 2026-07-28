@@ -1,0 +1,17 @@
+{
+  "version": null,
+  "prerelease": false,
+  "published_at": null,
+  "assets": {
+    "linux-amd64": null,
+    "linux-amd64-update": null,
+    "darwin-arm64": null,
+    "darwin-arm64-update": null,
+    "darwin-amd64": null,
+    "darwin-amd64-update": null,
+    "windows-amd64": null,
+    "windows-amd64-update": null
+  },
+  "checksums": {},
+  "_comment": "Populated automatically when litefinga-worker main publishes a stable release."
+}
