@@ -1,17 +1,23 @@
 {
-  "version": null,
+  "version": "v0.1.2",
   "prerelease": false,
-  "published_at": null,
+  "published_at": "2026-08-07T23:55:55Z",
+  "litefinga_bot_ref": "latest",
+  "litefinga_bot_source": "stable",
   "assets": {
-    "linux-amd64": null,
-    "linux-amd64-update": null,
-    "darwin-arm64": null,
-    "darwin-arm64-update": null,
-    "darwin-amd64": null,
-    "darwin-amd64-update": null,
-    "windows-amd64": null,
-    "windows-amd64-update": null
+    "linux-amd64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.2/litefinga-worker-v0.1.2-linux-amd64.tar.gz",
+    "linux-amd64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.2/litefinga-worker-v0.1.2-linux-amd64.tar.gz",
+    "darwin-arm64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.2/litefinga-worker-v0.1.2-darwin-arm64.tar.gz",
+    "darwin-arm64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.2/litefinga-worker-v0.1.2-darwin-arm64.tar.gz",
+    "darwin-amd64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.2/litefinga-worker-v0.1.2-darwin-amd64.tar.gz",
+    "darwin-amd64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.2/litefinga-worker-v0.1.2-darwin-amd64.tar.gz",
+    "windows-amd64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.2/litefinga-worker-v0.1.2-windows-amd64.zip",
+    "windows-amd64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.2/litefinga-worker-v0.1.2-windows-amd64.zip"
   },
-  "checksums": {},
-  "_comment": "Populated automatically when litefinga-worker main publishes a stable release."
+  "checksums": {
+    "linux-amd64-update": "sha256:b298ded6dd05801d7ea3850637de5a7c462375eec65b51186e78977d5673981c",
+    "darwin-arm64-update": "sha256:b16969cb7da8721ab1006362a5bcce8588aff967f836032aed7a336fb9d586ae",
+    "darwin-amd64-update": "sha256:a391cd31d8ef2730602a5c9fc14b932cdd63ee7e4f5d4d0bac9a0fc40b69643b",
+    "windows-amd64-update": "sha256:d112c4fa9e4d40c8a0a5ba48ba5ab906b7d90acb0280c084ffde9eb5ab9a5104"
+  }
 }
