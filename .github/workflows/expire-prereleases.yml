@@ -1,0 +1,42 @@
+name: Expire old pre-releases
+
+on:
+  schedule:
+    # Daily — GitHub Releases have no built-in retention like Actions artifacts.
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+    inputs:
+      retention_days:
+        description: Delete pre-releases older than this many days (scheduled runs always use 3).
+        required: false
+        default: "3"
+        type: string
+      prune_to_last_n:
+        description: Also delete older releases, keeping only the newest N (saves artifact/release space).
+        required: false
+        default: false
+        type: boolean
+      keep_last_n:
+        description: How many newest releases to keep when prune_to_last_n is enabled.
+        required: false
+        default: "3"
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  expire:
+    name: Expire / prune GitHub releases
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Expire old pre-releases (and optional keep-last prune)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RETENTION_DAYS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.retention_days || '3' }}
+          KEEP_LAST_N: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.prune_to_last_n == 'true' && github.event.inputs.keep_last_n || '0' }}
+        run: |
+          chmod +x scripts/expire-old-prereleases.sh
+          bash scripts/expire-old-prereleases.sh
