@@ -1,23 +1,23 @@
 {
-  "version": "v0.1.48",
+  "version": "v0.1.49",
   "prerelease": false,
-  "published_at": "2026-09-03T18:57:09Z",
+  "published_at": "2026-09-04T01:20:11Z",
   "litefinga_bot_ref": "latest",
   "litefinga_bot_source": "stable",
   "assets": {
-    "linux-amd64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.48/litefinga-worker-v0.1.48-linux-amd64.tar.gz",
-    "linux-amd64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.48/litefinga-worker-v0.1.48-linux-amd64.tar.gz",
-    "darwin-arm64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.48/litefinga-worker-v0.1.48-darwin-arm64.tar.gz",
-    "darwin-arm64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.48/litefinga-worker-v0.1.48-darwin-arm64.tar.gz",
-    "darwin-amd64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.48/litefinga-worker-v0.1.48-darwin-amd64.tar.gz",
-    "darwin-amd64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.48/litefinga-worker-v0.1.48-darwin-amd64.tar.gz",
-    "windows-amd64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.48/litefinga-worker-v0.1.48-windows-amd64.zip",
-    "windows-amd64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.48/litefinga-worker-v0.1.48-windows-amd64.zip"
+    "linux-amd64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.49/litefinga-worker-v0.1.49-linux-amd64.tar.gz",
+    "linux-amd64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.49/litefinga-worker-v0.1.49-linux-amd64.tar.gz",
+    "darwin-arm64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.49/litefinga-worker-v0.1.49-darwin-arm64.tar.gz",
+    "darwin-arm64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.49/litefinga-worker-v0.1.49-darwin-arm64.tar.gz",
+    "darwin-amd64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.49/litefinga-worker-v0.1.49-darwin-amd64.tar.gz",
+    "darwin-amd64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.49/litefinga-worker-v0.1.49-darwin-amd64.tar.gz",
+    "windows-amd64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.49/litefinga-worker-v0.1.49-windows-amd64.zip",
+    "windows-amd64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.49/litefinga-worker-v0.1.49-windows-amd64.zip"
   },
   "checksums": {
-    "linux-amd64-update": "sha256:3a7584dc8f8fcad1b8fadd89cba1af8c89b5011e56ccd4625d26758e02ab6d48",
-    "darwin-arm64-update": "sha256:3946c56db58e95f40d6544ffced26b4f9ad740b886efa5d48e275bd55f6cc7f6",
-    "darwin-amd64-update": "sha256:24bd13d067b320585365faf12cbf2b74b2748f8eccdb8b224d3c3e58da1a3de0",
-    "windows-amd64-update": "sha256:05fb572f1e689386d4fe0bd1030b133f7938d4122ba098c804cece863c03a21d"
+    "linux-amd64-update": "sha256:f4c2713cde9262feb1a03aa7a14c37dac3ba21af8d39d84dbb5adde9e99fe560",
+    "darwin-arm64-update": "sha256:0499f44d603a4804ccc65e897a72671612cea988641e179b5ad0102810196724",
+    "darwin-amd64-update": "sha256:683ed95d23905299158ac361630c6fc5f55809a21910b7bc5104c86ac3005c29",
+    "windows-amd64-update": "sha256:0d422eb66f11d48eca2e66e3577bd53d1678cd98fe8d0daead09a385bbc5f4b5"
   }
 }
