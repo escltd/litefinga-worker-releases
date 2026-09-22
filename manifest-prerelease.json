@@ -1,23 +1,23 @@
 {
-  "version": "v0.1.71-pre.72.1",
+  "version": "v0.1.71-pre.72.2",
   "prerelease": true,
-  "published_at": "2026-09-22T06:38:18Z",
-  "litefinga_bot_ref": "v0.0.92-pre.92.1",
+  "published_at": "2026-09-22T07:03:31Z",
+  "litefinga_bot_ref": "v0.0.93-pre.93.1",
   "litefinga_bot_source": "prerelease",
   "assets": {
-    "linux-amd64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.71-pre.72.1/litefinga-worker-v0.1.71-pre.72.1-linux-amd64.tar.gz",
-    "linux-amd64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.71-pre.72.1/litefinga-worker-v0.1.71-pre.72.1-linux-amd64.tar.gz",
-    "darwin-arm64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.71-pre.72.1/litefinga-worker-v0.1.71-pre.72.1-darwin-arm64.tar.gz",
-    "darwin-arm64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.71-pre.72.1/litefinga-worker-v0.1.71-pre.72.1-darwin-arm64.tar.gz",
-    "darwin-amd64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.71-pre.72.1/litefinga-worker-v0.1.71-pre.72.1-darwin-amd64.tar.gz",
-    "darwin-amd64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.71-pre.72.1/litefinga-worker-v0.1.71-pre.72.1-darwin-amd64.tar.gz",
-    "windows-amd64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.71-pre.72.1/litefinga-worker-v0.1.71-pre.72.1-windows-amd64.zip",
-    "windows-amd64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.71-pre.72.1/litefinga-worker-v0.1.71-pre.72.1-windows-amd64.zip"
+    "linux-amd64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.71-pre.72.2/litefinga-worker-v0.1.71-pre.72.2-linux-amd64.tar.gz",
+    "linux-amd64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.71-pre.72.2/litefinga-worker-v0.1.71-pre.72.2-linux-amd64.tar.gz",
+    "darwin-arm64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.71-pre.72.2/litefinga-worker-v0.1.71-pre.72.2-darwin-arm64.tar.gz",
+    "darwin-arm64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.71-pre.72.2/litefinga-worker-v0.1.71-pre.72.2-darwin-arm64.tar.gz",
+    "darwin-amd64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.71-pre.72.2/litefinga-worker-v0.1.71-pre.72.2-darwin-amd64.tar.gz",
+    "darwin-amd64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.71-pre.72.2/litefinga-worker-v0.1.71-pre.72.2-darwin-amd64.tar.gz",
+    "windows-amd64": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.71-pre.72.2/litefinga-worker-v0.1.71-pre.72.2-windows-amd64.zip",
+    "windows-amd64-update": "https://github.com/escltd/litefinga-worker-releases/releases/download/v0.1.71-pre.72.2/litefinga-worker-v0.1.71-pre.72.2-windows-amd64.zip"
   },
   "checksums": {
-    "linux-amd64-update": "sha256:ab065f52b6ea87f37ac461b3edfb5187874440fd410699a7ff60f106c540d0f3",
-    "darwin-arm64-update": "sha256:1505cad826c1172dbfe6d9ef1dc19860d5babbc80d99d6caab23a50c1253168c",
-    "darwin-amd64-update": "sha256:62d8ce14f3b9b9855be312ffc69ea7daf31fa92b7578ed53ca53bdb6f0547951",
-    "windows-amd64-update": "sha256:16c92fabec3144ff208fae8df04dffe4a01febd32ed0cec409129ae6d403e23d"
+    "linux-amd64-update": "sha256:0f710cc435753c555ff29b4cd860e8bef22678227e706b37784a8ec03fc43ab0",
+    "darwin-arm64-update": "sha256:77f9810e5183a6e80ed26faa86eca982f52afe68bc2af3962c386d3c40e23f25",
+    "darwin-amd64-update": "sha256:340f77537b424141bcc90a2f2a3aee2c9508aa7899c4998d56e244443b2173c6",
+    "windows-amd64-update": "sha256:3c2d0a4ec06998a631acb0385ddf981985d26bfe20a4615ba7ddd2690e34f0be"
   }
 }
